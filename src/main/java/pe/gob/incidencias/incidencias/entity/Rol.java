@@ -1,5 +1,5 @@
 package pe.gob.incidencias.incidencias.entity;
 
-public class Rol {
-    
+public enum Rol {
+    USER, ADMIN
 }
