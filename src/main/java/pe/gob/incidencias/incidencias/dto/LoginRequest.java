@@ -1,5 +1,9 @@
 package pe.gob.incidencias.incidencias.dto;
 
-public class LoginRequest {
-    
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
+public record LoginRequest(
+        @NotBlank @Email String email,
+        @NotBlank String password) {
 }

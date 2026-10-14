@@ -1,5 +1,6 @@
 package pe.gob.incidencias.incidencias.dto;
 
-public class ReporteEstadoDTO {
-    
+import pe.gob.incidencias.incidencias.entity.EstadoIncidencia;
+
+public record ReporteEstadoDTO(EstadoIncidencia estado, Long total) {
 }
