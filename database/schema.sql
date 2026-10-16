@@ -48,5 +48,3 @@ INSERT IGNORE INTO distrito (nombre) VALUES
  ('Santa Rosa'),('Santiago de Surco'),('Surquillo'),('Villa El Salvador'),
  ('Villa María del Triunfo');
 
--- El usuario ADMIN NO se inserta aqui: la aplicacion lo crea al arrancar
--- (con la contrasena cifrada con BCrypt) a partir de app.admin.* en application.properties.
